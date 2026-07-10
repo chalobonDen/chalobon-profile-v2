@@ -33,9 +33,7 @@ export default function RootLayout({
 
     <html lang='en' suppressHydrationWarning>
       <body>
-        <ThemeProvider attribute='class' defaultTheme='light' enableSystem>
-          {children}
-        </ThemeProvider>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
