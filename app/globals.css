@@ -12,7 +12,6 @@
 
 .dark {
   --background: #0f172a;
-  /* --foreground: #171717; */
   --foreground: #f8fafc;
   --primary: #22c55e;
   --secondary: #38bdf8;
@@ -24,12 +23,26 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+
+  --font-sans: var(--font-noto-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-sans;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  padding-inline: 1rem;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 100%;
+  }
 }
