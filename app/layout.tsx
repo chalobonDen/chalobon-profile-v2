@@ -25,9 +25,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning>
+    <html
+      suppressHydrationWarning
+      className={cn('font-sans', notoSans.variable)}
+    >
       <body
-        // className={`${notoSansThai.variable} antialiased`}
         className={cn(
           notoSans.variable,
           notoSansThai.variable,

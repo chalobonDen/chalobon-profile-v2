@@ -1,15 +1,15 @@
-import LanguageSwitcher from '@/components/layout/LanguageSwitcher';
-import ThemeToggle from '@/components/theme-toggle';
-import { getTranslations } from 'next-intl/server';
+import { Navbar } from '@/components/layout/navbar';
+
+import { HeroSection } from '@/components/section/hero-section';
 
 export default async function Home() {
-  const t = await getTranslations('Home');
   return (
     <div className='container'>
-      <ThemeToggle />
-      <LanguageSwitcher />
-
-      <div>{t('title')}</div>
+      <Navbar />
+      <div className='mt-20'>
+        <HeroSection />
+      </div>
+      {/* <Projects /> */}
     </div>
   );
 }

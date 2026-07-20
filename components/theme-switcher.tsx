@@ -5,7 +5,7 @@ import { Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
 
-export default function ThemeToggle() {
+export default function ThemeSwitcher() {
   const { resolvedTheme, setTheme } = useTheme();
 
   const [mounted, setMounted] = useState(false);
@@ -23,7 +23,7 @@ export default function ThemeToggle() {
     <button
       onClick={() => setTheme(dark ? 'light' : 'dark')}
       className={cn(
-        'relative flex h-10 w-20 items-center rounded-full p-1 transition',
+        'relative flex h-8 w-18 items-center rounded-full p-1 transition',
         dark ? 'bg-slate-700' : 'bg-[#D9F5E6]',
       )}
     >
@@ -43,7 +43,7 @@ export default function ThemeToggle() {
 
       <div
         className={cn(
-          'h-8 w-8 rounded-full bg-white shadow transition-all duration-300',
+          'h-6 w-6 rounded-full bg-white shadow transition-all duration-300',
           dark ? 'translate-x-10' : 'translate-x-0',
         )}
       />
