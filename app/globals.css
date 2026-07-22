@@ -43,9 +43,9 @@
 .dark {
   --background: #0f172a;
   --foreground: #f8fafc;
-  --primary: #22c55e;
-  --secondary: #38bdf8;
-  --accent: #facc15;
+  --primary: #82d8b4;
+  --secondary: #a7c7ff;
+  --accent: #ffe38e;
   --card: #1e293b;
   --text: #f8fafc;
   --card-foreground: oklch(0.985 0 0);
@@ -148,4 +148,8 @@ body {
   html {
     @apply font-sans;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

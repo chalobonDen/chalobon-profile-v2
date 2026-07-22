@@ -1,6 +1,11 @@
 import { Navbar } from '@/components/layout/navbar';
+import EducationSection from '@/components/section/education';
+import ExperienceSection from '@/components/section/experience';
 
 import { HeroSection } from '@/components/section/hero-section';
+// import ProjectSection from '@/components/section/projects';
+import SkillSection from '@/components/section/skill';
+import { experience } from '@/constants/experience';
 
 export default async function Home() {
   return (
@@ -9,7 +14,13 @@ export default async function Home() {
       <div className='mt-20'>
         <HeroSection />
       </div>
-      {/* <Projects /> */}
+
+      {/* <ProjectSection /> */}
+
+      <SkillSection />
+
+      <ExperienceSection data={experience} />
+      <EducationSection />
     </div>
   );
 }

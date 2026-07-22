@@ -1,7 +1,10 @@
 import { menus } from '@/constants/menus';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
 export function NavMenu() {
+  const t = useTranslations('menu');
+
   return (
     <nav className='hidden items-center gap-8 md:flex'>
       {menus.map(menu => (
@@ -10,7 +13,7 @@ export function NavMenu() {
           href={menu.href}
           className='text-sm font-medium transition-colors hover:text-primary'
         >
-          {menu.label}
+          {t(menu.key)}
         </Link>
       ))}
     </nav>

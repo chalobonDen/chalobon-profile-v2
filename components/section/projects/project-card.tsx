@@ -11,12 +11,12 @@ export default function ProjectCard({ project }: Props) {
   return (
     <article className='project-card group rounded-3xl border bg-card overflow-hidden'>
       <div className='relative aspect-video overflow-hidden'>
-        <Image
+        {/* <Image
           src={project.image}
           alt={project.title}
           fill
           className='object-cover transition-transform duration-500 group-hover:scale-110'
-        />
+        /> */}
       </div>
 
       <div className='space-y-4 p-6'>

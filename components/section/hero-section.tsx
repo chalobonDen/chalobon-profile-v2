@@ -5,6 +5,7 @@ import Image from 'next/image';
 import gsap from 'gsap';
 import { ArrowDown, Sparkles } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import Socials from './socials';
 
 export function HeroSection() {
   const t = useTranslations();
@@ -68,7 +69,7 @@ export function HeroSection() {
     <section
       id='top'
       ref={scope}
-      className='relative overflow-hidden px-5 pt-28 pb-16 sm:pt-32 md:pb-24'
+      className='relative overflow-hidden pt-28 pb-16 sm:pt-32 md:pb-24'
     >
       <div className='mx-auto grid max-w-5xl items-center gap-10 md:grid-cols-[1.5fr_1fr]'>
         <div className='order-2 md:order-1'>
@@ -102,22 +103,10 @@ export function HeroSection() {
               libraries for scalable solutions.`}
           </p>
 
-          <div className='mt-8 flex flex-wrap items-center gap-3'>
-            <a
-              data-hero='cta'
-              href='#projects'
-              className='inline-flex h-11 items-center justify-center rounded-full bg-primary px-6 text-sm font-medium text-primary-foreground transition-transform hover:scale-105'
-            >
-              ctaProjects
-            </a>
-            <a
-              data-hero='cta'
-              href='#contact'
-              className='inline-flex h-11 items-center justify-center rounded-full border border-border bg-card px-6 text-sm font-medium transition-colors hover:bg-secondary'
-            >
-              ctaContact
-            </a>
-          </div>
+          {/* github linkedin email */}
+          <section className='mt-8'>
+            <Socials />
+          </section>
         </div>
 
         <div className='order-1 md:order-2 flex justify-center md:justify-end'>

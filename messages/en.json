@@ -1,11 +1,36 @@
 {
   "Home": {
     "title": "Hello",
-    "description": "Welcome to my portfolio"
+    "description": "Welcome to my website"
   },
-  "hero": {
-    "": "",
-    "": "",
-    "": ""
+
+  "menu": {
+    "home": "Home",
+    "education": "Education",
+    "experience": "Experience",
+    "project": "Project",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+
+  "home": "Home",
+  "education": "Education",
+  "experience": "Experience",
+  "skill": "Skills",
+  "resume": "Resume",
+  "portfolio": "Portfolio",
+
+  "education-section": {
+    "badge": "🎓 Education",
+    "title": "My Learning Journey",
+
+    "university": "Chiang Mai University",
+    "faculty": "College of Arts, Media and Technology",
+    "major": "Modern Management and Information Technology",
+
+    "startYear": "2017",
+    "endYear": "2021",
+    "duration": "2015 - 2019",
+    "gpa": "GPA 3.37"
   }
 }
