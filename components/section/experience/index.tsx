@@ -121,7 +121,7 @@ const Experience: FC<IExperienceProps> = ({ data }) => {
   return (
     <section id='experience' ref={containerRef} className='bg-black-100 py-20'>
       <div className='container'>
-        <h2 className='mt-5 text-4xl font-bold md:text-5xl mb-10'>
+        <h2 className='mt-5 text-3xl font-bold md:text-4xl mb-10'>
           {t('experience')}
         </h2>
 

@@ -76,7 +76,7 @@ export default function EducationSection() {
             {t('badge')}
           </span>
 
-          <h2 className='mt-5 text-4xl font-bold md:text-5xl'>{t('title')}</h2>
+          <h2 className='mt-5 text-3xl font-bold md:text-4xl'>{t('title')}</h2>
         </div>
 
         {/* Timeline */}
