@@ -33,15 +33,19 @@ const SkillSection = () => {
   }, []);
 
   const handleHover = (index: number) => {
-    gsap.to(cardRefs.current[index], {
+    const card = cardRefs.current[index];
+    const icon = iconRefs.current[index];
+
+    if (!card || !icon) return;
+
+    gsap.to(card, {
       y: -8,
       scale: 1.03,
       duration: 0.3,
       ease: 'power2.out',
-      // boxShadow: '0 15px 30px rgba(0,0,0,0.15)',
     });
 
-    gsap.to(iconRefs.current[index], {
+    gsap.to(icon, {
       rotate: 10,
       scale: 1.2,
       duration: 0.3,
@@ -50,15 +54,19 @@ const SkillSection = () => {
   };
 
   const handleLeave = (index: number) => {
-    gsap.to(cardRefs.current[index], {
+    const card = cardRefs.current[index];
+    const icon = iconRefs.current[index];
+
+    if (!card || !icon) return;
+
+    gsap.to(card, {
       y: 0,
       scale: 1,
       duration: 0.3,
       ease: 'power2.out',
-      // boxShadow: 'none',
     });
 
-    gsap.to(iconRefs.current[index], {
+    gsap.to(icon, {
       rotate: 0,
       scale: 1,
       duration: 0.3,
@@ -67,7 +75,7 @@ const SkillSection = () => {
   };
 
   return (
-    <section id='skills' className='bg-black-100 py-20'>
+    <section ref={sectionRef} id='skills' className='bg-black-100 py-20'>
       <div className='container mx-auto max-w-5xl'>
         <h2 className='mt-5 text-3xl font-bold md:text-4xl mb-10'>Skill</h2>
 
