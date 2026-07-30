@@ -6,6 +6,7 @@ import ProjectCard from './project-card';
 // import { useProjectAnimation } from './use-project-animation';
 import { projects } from '@/constants/project-list';
 import { useProjectAnimation } from '@/hook/use-project-animation';
+import { portfoliosData } from '@/constants/portfolio';
 
 export default function ProjectSection() {
   const container = useRef<HTMLDivElement>(null);
@@ -25,7 +26,7 @@ export default function ProjectSection() {
           ref={container}
           className='grid gap-8 md:grid-cols-2 xl:grid-cols-3'
         >
-          {projects.map(project => (
+          {portfoliosData.map(project => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>

@@ -8,18 +8,13 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { cn } from '@/lib/utils';
 import { useTranslations } from 'next-intl';
+import { Experience } from '@/types/experience';
+import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger);
 
-export interface IExperience {
-  name: string;
-  position: string;
-  detail: string[];
-  year?: string;
-}
-
 interface IExperienceProps {
-  data: IExperience[];
+  data: Experience[];
 }
 
 const Experience: FC<IExperienceProps> = ({ data }) => {
@@ -152,9 +147,18 @@ const Experience: FC<IExperienceProps> = ({ data }) => {
               >
                 <p className='exp-year text-sm text-primary'>{work.year}</p>
 
-                <h2 className='exp-title mt-2 text-xl font-bold'>
-                  {work.name}
-                </h2>
+                {work.webpage ? (
+                  <Link
+                    className='exp-title mt-2 text-xl font-bold hover:underline'
+                    href={work.webpage}
+                  >
+                    {work.name}
+                  </Link>
+                ) : (
+                  <h2 className='exp-title mt-2 text-xl font-bold'>
+                    {work.name}
+                  </h2>
+                )}
 
                 <p className='exp-position mt-1 font-semibold'>
                   {work.position}

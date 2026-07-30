@@ -30,7 +30,87 @@
 
     "startYear": "2017",
     "endYear": "2021",
-    "duration": "2015 - 2019",
+    "duration": "2017 - 2020",
     "gpa": "GPA 3.37"
+  },
+
+  "status": {
+    "open": "Available",
+    "close": "Service Discontinued"
+  },
+
+  "portfolioSection": {
+    "dropright": {
+      "title": "DropRight",
+      "description": "A logistics and delivery management platform that streamlines shipment tracking, order management, and operational workflows.",
+      "responsibilities": [
+        "Developed responsive user interfaces using Next.js and TypeScript.",
+        "Built reusable UI components to improve development efficiency.",
+        "Integrated REST APIs for real-time data management.",
+        "Collaborated with designers to deliver pixel-perfect interfaces.",
+        "Optimized application performance and user experience."
+      ]
+    },
+    "regTu": {
+      "title": "Thammasat University Registration System",
+      "description": "An online registration platform for Thammasat University, allowing users to register for courses, manage schedules, and access academic services through a modern bilingual interface.",
+      "responsibilities": [
+        "Developed the complete frontend UI based on Figma designs using Next.js 14 (App Router) and TypeScript.",
+        "Built responsive and reusable UI components for the entire registration system.",
+        "Implemented bilingual support (Thai / English) using an internationalization (i18n) solution.",
+        "Collaborated with designers to ensure pixel-perfect implementation.",
+        "Converted Figma designs into responsive, production-ready pages."
+      ]
+    },
+    "educationFair": {
+      "title": "Education Fair",
+      "description": "An event platform for education fairs, allowing students to explore institutions, register for activities, and access event information.",
+      "responsibilities": [
+        "Developed the registration system for schools and parents to participate in Open House events.",
+        "Built a responsive multi-step registration form UI.",
+        "Created reusable UI components with responsive design.",
+        "Collaborated with designers to deliver pixel-perfect interfaces based on Figma designs."
+      ]
+    },
+    "wonderSeas": {
+      "title": "Wonder Seas",
+      "description": "A tourism and travel website showcasing destinations, travel experiences, and promotional content.",
+      "responsibilities": [
+        "Implemented responsive landing pages and content sections.",
+        "Developed reusable UI components for marketing pages.",
+        "Improved page performance and loading speed.",
+        "Collaborated with designers to ensure consistent branding."
+      ]
+    },
+    "otBar": {
+      "title": "OT Bar",
+      "description": "An internal workforce management system for tracking overtime requests, approvals, and employee working hours.",
+      "responsibilities": [
+        "Developed dashboard interfaces and data tables.",
+        "Implemented forms with validation.",
+        "Integrated APIs for overtime management workflows.",
+        "Improved usability for daily operational tasks."
+      ]
+    },
+    "tcg": {
+      "title": "TCG Thailand",
+      "description": "Corporate website for TCG Thailand.",
+      "responsibilities": []
+    },
+    "fanDelivery": {
+      "title": "Fan Delivery",
+      "description": "Food delivery platform.",
+      "responsibilities": []
+    },
+    "jetlag": {
+      "title": "Jetlag",
+      "description": "Travel and lifestyle platform.",
+      "responsibilities": []
+    },
+    "gameconnext": {
+      "title": "GameConnext",
+      "description": "Gaming community platform.",
+      "responsibilities": []
+    }
   }
 }

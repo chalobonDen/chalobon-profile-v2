@@ -1,7 +1,10 @@
-export const experience = [
+import { Experience } from '@/types/experience';
+
+export const experience: Experience[] = [
   {
     name: 'Graphio Studio',
     position: 'Front-end developer',
+    webpage: 'https://graphio.co.th/th',
     detail: [
       'Developed and maintained web applications using React, Next.js, TypeScript, and Tailwind CSS.',
     ],
@@ -10,6 +13,7 @@ export const experience = [
   {
     name: 'Owl day house Co.',
     position: 'Front-end developer',
+    webpage: 'https://owldayhouse.com/',
     detail: [
       'Developed and maintained e-commerce web applications using Next.js Next.ts and Nuxt.js.',
       'Developed and maintained applications using React Native.',
