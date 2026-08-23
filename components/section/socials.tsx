@@ -50,7 +50,7 @@ export default function Socials() {
       </a>
 
       <a
-        href='https://gitlab.com/...'
+        href='https://gitlab.com/chalobon129'
         target='_blank'
         data-social
         className='group flex h-12 w-12 items-center justify-center rounded-2xl border bg-card transition-colors hover:bg-primary hover:text-white'
@@ -59,7 +59,7 @@ export default function Socials() {
       </a>
 
       <a
-        href='mailto:you@email.com'
+        href='mailto:chalobon0815@gmail.com'
         data-social
         className='group flex h-12 w-12 items-center justify-center rounded-2xl border bg-card transition-colors hover:bg-primary hover:text-white'
       >

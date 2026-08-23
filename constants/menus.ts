@@ -21,8 +21,4 @@ export const menus: MenuItem[] = [
     key: 'skills',
     href: '#skills',
   },
-  {
-    key: 'contact',
-    href: '#contact',
-  },
 ];

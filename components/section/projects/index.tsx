@@ -14,7 +14,7 @@ export default function ProjectSection() {
   useProjectAnimation(container);
 
   return (
-    <section id='projects' className='py-32'>
+    <section id='project' className='py-32'>
       <div className='container'>
         <div className='mb-16 text-center'>
           <p className='text-primary'>Portfolio</p>
