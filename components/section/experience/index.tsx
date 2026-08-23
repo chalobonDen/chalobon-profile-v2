@@ -8,13 +8,13 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { cn } from '@/lib/utils';
 import { useTranslations } from 'next-intl';
-import { Experience } from '@/types/experience';
+import { Experience as ExperienceType } from '@/types/experience';
 import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger);
 
 interface IExperienceProps {
-  data: Experience[];
+  data: ExperienceType[];
 }
 
 const Experience: FC<IExperienceProps> = ({ data }) => {

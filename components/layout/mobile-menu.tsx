@@ -49,7 +49,7 @@ export function MobileMenu() {
               onClick={() => setOpen(false)}
               className='rounded-lg px-4 py-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground'
             >
-              {menu.label}
+              {menu.key}
             </Link>
           ))}
         </nav>
