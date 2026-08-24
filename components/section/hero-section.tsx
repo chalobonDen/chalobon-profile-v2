@@ -71,7 +71,7 @@ export function HeroSection() {
       ref={scope}
       className="relative overflow-hidden pt-28 pb-16 sm:pt-32 md:pb-24"
     >
-      <div className="mx-auto grid max-w-5xl items-center gap-10 md:grid-cols-[1.5fr_1fr]">
+      <div className="container mx-auto grid max-w-5xl items-center gap-10 md:grid-cols-[1.5fr_1fr]">
         <div className="order-2 md:order-1">
           <span
             data-hero="badge"
@@ -94,13 +94,7 @@ export function HeroSection() {
             data-hero="tagline"
             className="mt-5 max-w-md text-base leading-relaxed text-muted-foreground text-pretty"
           >
-            {`I'm a middle-level Frontend
-              Developer skilled in React, Next.js, and
-              TypeScript. I have experience building
-              e-commerce and marketplace
-              platforms, as well as leading PoC
-              projects to evaluate and select
-              libraries for scalable solutions.`}
+            {`I'm a middle-level Frontend Developer skilled in React, Next.js, and TypeScript. I have experience building e-commerce and marketplace platforms, as well as leading PoC projects to evaluate and select libraries for scalable solutions.`}
           </p>
 
           {/* github linkedin email */}
@@ -109,7 +103,7 @@ export function HeroSection() {
           </section>
         </div>
 
-        <div className="order-1 md:order-2 flex justify-center md:justify-end">
+        <div className="order-1 md:order-2 flex justify-center lg:justify-end">
           <div data-hero="avatar-wrap" className="relative">
             <div
               data-hero="blob"
@@ -131,13 +125,6 @@ export function HeroSection() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="mx-auto mt-14 flex max-w-5xl justify-center md:justify-start">
-        <span className="flex items-center gap-2 text-xs text-muted-foreground">
-          <ArrowDown className="size-4 animate-bounce" />
-          about
-        </span>
       </div>
     </section>
   );

@@ -1,24 +1,24 @@
-import { MenuItem } from '@/types/menu';
+import { MenuItem } from "@/types/menu";
 
 export const menus: MenuItem[] = [
   {
-    key: 'home',
-    href: '#home',
+    key: "home",
+    href: "home",
   },
   {
-    key: 'education',
-    href: '#education',
+    key: "education",
+    href: "education",
   },
   {
-    key: 'project',
-    href: '#project',
+    key: "project",
+    href: "project",
   },
   {
-    key: 'experience',
-    href: '#experience',
+    key: "experience",
+    href: "experience",
   },
   {
-    key: 'skills',
-    href: '#skills',
+    key: "skills",
+    href: "skills",
   },
 ];

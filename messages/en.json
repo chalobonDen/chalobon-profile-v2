@@ -19,6 +19,8 @@
   "skill": "Skills",
   "resume": "Resume",
   "portfolio": "Portfolio",
+  "more": "More",
+  "selectedProjects": "Selected Projects",
 
   "education-section": {
     "badge": "🎓 Education",
@@ -94,23 +96,32 @@
     },
     "tcg": {
       "title": "TCG Thailand",
-      "description": "Corporate website for TCG Thailand.",
-      "responsibilities": []
+      "description": "An online platform for buying and selling trading game cards.",
+      "responsibilities": [
+        "Developed and improved the Frontend of an online trading card marketplace."
+      ]
     },
     "fanDelivery": {
       "title": "Fan Delivery",
-      "description": "Food delivery platform.",
-      "responsibilities": []
+      "description": "A platform providing food delivery and laundry delivery services.",
+      "responsibilities": [
+        "Developed Admin-side management features for Laundry and Laundromat.",
+        "Implemented CRUD operations for managing laundry shop and service-related data."
+      ]
     },
     "jetlag": {
       "title": "Jetlag",
-      "description": "Travel and lifestyle platform.",
-      "responsibilities": []
+      "description": "A platform for restaurant reservations.",
+      "responsibilities": [
+        "Developed and improved the Frontend of the platform."
+      ]
     },
     "gameconnext": {
       "title": "GameConnext",
-      "description": "Gaming community platform.",
-      "responsibilities": []
+      "description": "A gaming and esports community platform with an in-game currency marketplace.",
+      "responsibilities": [
+        "Developed and improved the Frontend of the platform."
+      ]
     }
   }
 }

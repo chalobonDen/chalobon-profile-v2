@@ -19,6 +19,8 @@
   "skill": "ทักษะ",
   "resume": "เรซูเม่",
   "portfolio": "ผลงาน",
+  "more": "เพิ่มเติม",
+  "selectedProjects": "Selected Projects",
 
   "education-section": {
     "badge": "🎓 ประวัติการศึกษา",
@@ -94,23 +96,32 @@
     },
     "tcg": {
       "title": "TCG Thailand",
-      "description": "เว็บไซต์องค์กรของ TCG Thailand",
-      "responsibilities": []
+      "description": "แพลตฟอร์มสำหรับซื้อขายการ์ดเกมออนไลน์",
+      "responsibilities": [
+        "พัฒนาและปรับปรุงส่วน Frontend ของแพลตฟอร์มสำหรับซื้อขายการ์ดเกม"
+      ]
     },
     "fanDelivery": {
       "title": "Fan Delivery",
-      "description": "แพลตฟอร์มบริการจัดส่งอาหาร",
-      "responsibilities": []
+      "description": "แพลตฟอร์มสำหรับให้บริการจัดส่งอาหารและบริการซักรีด",
+      "responsibilities": [
+        "พัฒนาระบบจัดการข้อมูลฝั่ง Admin สำหรับฟีเจอร์ Laundry และ Laundromat",
+        "พัฒนา CRUD operations สำหรับจัดการข้อมูลของร้านซักรีดและบริการที่เกี่ยวข้อง"
+      ]
     },
     "jetlag": {
       "title": "Jetlag",
-      "description": "แพลตฟอร์มด้านการท่องเที่ยวและไลฟ์สไตล์",
-      "responsibilities": []
+      "description": "แพลตฟอร์มสำหรับจองร้านอาหาร",
+      "responsibilities": [
+        "พัฒนาและปรับปรุงส่วน Frontend ของแพลตฟอร์ม"
+      ]
     },
     "gameconnext": {
       "title": "GameConnext",
-      "description": "แพลตฟอร์มชุมชนเกมและอีสปอร์ต",
-      "responsibilities": []
+      "description": "แพลตฟอร์มชุมชนสำหรับเกมและอีสปอร์ต พร้อมระบบซื้อขายเงินในเกม",
+      "responsibilities": [
+        "พัฒนาและปรับปรุงส่วน Frontend ของแพลตฟอร์ม"
+      ]
     }
   }
 }
